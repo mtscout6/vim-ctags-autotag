@@ -2,7 +2,7 @@ Adopted from [Craig Emery's dotfiles](http://github.com/craigemery/dotFiles)
 
 # Vim Ctags AutoTag
 
-Updates the tags file for the current vim session when saving a file. This is done by walking up the directory tree from the file saved, looking for the generated ctags file. When the file is found all entries for the saved file are removed and then the ctags ammend command is called, thus updating the entries for the saved file.
+Updates the tags file for the current vim session when saving a file. This is done by walking up the directory tree from the file saved, looking for the generated ctags file. When the file is found all entries for the saved file are removed and then the ctags amend command is called, thus updating the entries for the saved file.
 
 ## Optional configurations for .vimrc
 
